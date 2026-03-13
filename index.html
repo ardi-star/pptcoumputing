@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloud Computing Presentation</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Background Video -->
+<video autoplay muted loop id="bgVideo">
+<source src="animasicloud.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+<div class="presentation">
+
+<section class="slide active intro">
+
+<h1 class="cyber-title">
+<span>A</span>
+<span>r</span>
+<span>s</span>
+<span>i</span>
+<span>t</span>
+<span>e</span>
+<span>k</span>
+<span>t</span>
+<span>u</span>
+<span>r</span>
+
+&nbsp;
+
+<span>d</span>
+<span>a</span>
+<span>n</span>
+
+&nbsp;
+
+<span>K</span>
+<span>o</span>
+<span>m</span>
+<span>p</span>
+<span>o</span>
+<span>n</span>
+<span>e</span>
+<span>n</span>
+
+</h1>
+
+<h2 class="subtitle">Cloud Computing</h2>
+
+<p class="desc">
+Memahami Struktur, Mekanisme, dan Keamanan Teknologi Awan
+</p>
+
+</section>
+
+<!-- SLIDE 2 -->
+<section class="slide">
+<h1>Apa itu Cloud Computing? (NIST Definition)</h1>
+<p>Sebelum masuk ke arsitektur, kita perlu memahami definisinya secara standar:</p>
+
+<ul>
+<li>Model Layanan: Memungkinkan akses jaringan yang nyaman dan sesuai permintaan ke kumpulan sumber daya komputasi.</li>
+<li>On-demand self-service.</li>
+<li>Broad network access.</li>
+<li>Resource pooling.</li>
+<li>Rapid elasticity.</li>
+<li>Measured service.</li>
+</ul>
+</section>
+
+<!-- SLIDE 3 -->
+<section class="slide">
+<h1>Hierarki Arsitektur Cloud</h1>
+
+<ul>
+<li>Front-End (Sisi Klien): Antarmuka dan aplikasi yang digunakan user.</li>
+<li>Back-End (Sisi Provider): Infrastruktur fisik dan virtual.</li>
+<li>Middleware: Komunikasi antara Front-End dan Back-End.</li>
+</ul>
+</section>
+
+<!-- SLIDE 4 -->
+<section class="slide">
+
+<div class="title-box">
+
+<div class="icon-box">
+<i class="fa-solid fa-desktop"></i>
+</div>
+
+<h1>Komponen Front-End</h1>
+
+</div>
+
+<ul>
+<li>Client Infrastructure: PC, laptop, mobile.</li>
+<li>User Interface: Browser atau aplikasi.</li>
+<li>HTTP / HTTPS untuk komunikasi jaringan.</li>
+</ul>
+</section>
+
+<!-- SLIDE 5 -->
+<section class="slide">
+
+<div class="title-box">
+
+<div class="icon-box">
+<i class="fa-solid fa-server"></i>
+</div>
+
+<h1>Komponen Back-End</h1>
+
+</div>
+
+<ul>
+<li>Application: Software yang merespon permintaan.</li>
+<li>Service: SaaS, PaaS, IaaS.</li>
+</ul>
+</section>
+
+<!-- SLIDE 6 -->
+<section class="slide">
+
+<div class="title-box">
+
+<div class="icon-box">
+<i class="fa-solid fa-microchip"></i>
+</div>
+
+<h1>Runtime Cloud & Middleware</h1>
+
+</div>
+
+<ul>
+<li>Virtual Machines / Containers</li>
+<li>Middleware untuk konektivitas dan database.</li>
+</ul>
+
+</section>
+
+<!-- SLIDE 7 -->
+<section class="slide">
+<h1>Virtualisasi & Hypervisor</h1>
+<ul>
+<li>Virtualization server</li>
+<li>Hypervisor membagi server menjadi VM.</li>
+</ul>
+</section>
+
+<!-- SLIDE 8 -->
+<section class="slide">
+<h1>Cloud Storage & Database</h1>
+<ul>
+<li>Scalable Storage</li>
+<li>Database SQL & NoSQL</li>
+</ul>
+</section>
+
+<!-- SLIDE 9 -->
+<section class="slide">
+<h1>Networking & Security</h1>
+<ul>
+<li>Virtual Private Cloud</li>
+<li>Load Balancer</li>
+<li>Firewall & IAM</li>
+</ul>
+</section>
+
+<!-- SLIDE 10 -->
+<section class="slide">
+<h1>Model Layanan</h1>
+<ul>
+<li>SaaS: Gmail</li>
+<li>PaaS: Google App Engine</li>
+<li>IaaS: AWS EC2</li>
+</ul>
+</section>
+
+<!-- SLIDE 11 -->
+<section class="slide">
+<h1>Deployment Models</h1>
+<ul>
+<li>Public Cloud</li>
+<li>Private Cloud</li>
+<li>Hybrid Cloud</li>
+<li>Multi Cloud</li>
+</ul>
+</section>
+
+<!-- SLIDE 12 -->
+<section class="slide">
+<h1>Kesimpulan & Masa Depan Cloud</h1>
+<ul>
+<li>Virtualisasi dan otomatisasi meningkatkan efisiensi.</li>
+<li>Serverless Computing</li>
+<li>Edge Computing</li>
+<li>AI Driven Cloud</li>
+</ul>
+</section>
+
+</div>
+
+<div class="nav">
+    
+
+<button onclick="prevSlide()">Previous</button>
+<button onclick="nextSlide()">Next</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
